@@ -1,0 +1,23 @@
+#jogo {
+    position: fixed;
+    left: 30%;
+    bottom: 30%;
+    display: grid;
+    z-index: 2;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    width: 400px;
+    height: 300px;
+    /* background-color: green; */
+    gap: 15px;
+}
+#caixa-canvas {
+    position: fixed;
+    z-index: 1;
+    /* border: 5px solid black; */
+}
+.quadrados {
+    width: 1fr;
+    height: 1fr;
+    z-index: 2;
+}
